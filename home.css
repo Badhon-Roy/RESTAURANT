@@ -1,0 +1,52 @@
+/* Global style start */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.section-title{
+    font-size: 1.30rem;
+    line-height: 1.2;
+    color: white;
+    font-weight: 700;
+}
+.paragraph{
+    color: white;
+    font-size: 20px;
+}
+.
+/* Global style end */
+
+
+/* nav section start */
+nav {}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+    background-color: rgba(87, 83, 83, 0.61);  
+}
+nav ul li {
+    margin-right:15px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+nav ul li a:hover{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px;
+}
+/* nav section end */
